@@ -8,9 +8,11 @@ I develop open-source workflows for bacterial and fungal genomics, microbiome pr
   <a href="https://ilivius.github.io/iLivius/">
     <img src="./docs/assets/bioflux-cover.jpg" width="680" alt="">
     <br>
-    Watch the BioFlux intro
+    Watch video
   </a>
 </p>
+
+BioFlux brings together workflows to assemble and annotate bacterial and fungal genomes, profile microbial communities from amplicon or shotgun reads, and train and interpret machine-learning classifiers on tabular data.
 
 | Workflow | Use it for |
 | --- | --- |
