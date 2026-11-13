@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A short introduction to the BioFlux workflows for genomics, microbiome profiling and machine learning.">
+  <title>BioFlux intro</title>
+  <style>
+    :root {
+      color-scheme: light;
+      color: #021a33;
+      background: #f3f7fb;
+      font-family: Inter, Roboto, system-ui, sans-serif;
+      line-height: 1.55;
+    }
+
+    body { margin: 0; }
+
+    main {
+      max-width: 60rem;
+      margin: 0 auto;
+      padding: clamp(1.25rem, 4vw, 3rem);
+    }
+
+    a { color: #124c7a; text-underline-offset: 0.2em; }
+    a:focus-visible, video:focus-visible {
+      outline: 3px solid #124c7a;
+      outline-offset: 4px;
+    }
+
+    h1 {
+      margin: 1.1rem 0 1rem;
+      font-size: clamp(1.8rem, 5vw, 3rem);
+      line-height: 1.15;
+      letter-spacing: -0.035em;
+    }
+
+    video {
+      display: block;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 16 / 9;
+      border-radius: 0.75rem;
+      background: #021a33;
+    }
+
+    p { max-width: 66ch; }
+  </style>
+</head>
+<body>
+  <main>
+    <a href="https://github.com/iLivius">GitHub profile</a>
+    <h1>BioFlux intro</h1>
+    <video controls playsinline preload="none" width="1280" height="720"
+      poster="assets/bioflux-cover.jpg" aria-label="BioFlux intro" aria-describedby="video-description">
+      <source src="assets/bioflux-intro.mp4" type="video/mp4">
+      <a href="assets/bioflux-intro.mp4">Open the BioFlux video</a>
+    </video>
+    <p id="video-description">The sound of running water accompanies a river and waterfall before the camera tilts up to the BioFlux title against a blue sky. The clip introduces bacterial and fungal genome analysis, microbiome profiling from amplicon and shotgun metagenomic data, and machine-learning classification of microbial community profiles.</p>
+  </main>
+</body>
+</html>
