@@ -23,7 +23,10 @@
     }
 
     a { color: #124c7a; text-underline-offset: 0.2em; }
-    a:focus-visible, video:focus-visible {
+
+    a:focus-visible,
+    video:focus-visible,
+    input:focus-visible {
       outline: 3px solid #124c7a;
       outline-offset: 4px;
     }
@@ -51,12 +54,34 @@
   <main>
     <a href="https://github.com/iLivius">GitHub profile</a>
     <h1>BioFlux intro</h1>
-    <video controls playsinline preload="none" width="1280" height="720"
-      poster="assets/bioflux-cover.jpg" aria-label="BioFlux intro" aria-describedby="video-description">
+
+    <video id="bioflux-video" controls playsinline preload="none"
+      width="1280" height="720" poster="assets/bioflux-cover.jpg"
+      aria-label="BioFlux intro" aria-describedby="video-description">
       <source src="assets/bioflux-intro.mp4" type="video/mp4">
       <a href="assets/bioflux-intro.mp4">Open the BioFlux video</a>
     </video>
+
+    <p>
+      <label>
+        <input type="checkbox" id="loop-video">
+        Loop video
+      </label>
+    </p>
+
     <p id="video-description">BioFlux brings together workflows to assemble and annotate bacterial and fungal genomes, profile microbial communities from amplicon or shotgun reads, and train and interpret machine-learning classifiers on tabular data.</p>
   </main>
+
+  <script>
+    const video = document.getElementById("bioflux-video");
+    const loopToggle = document.getElementById("loop-video");
+
+    function syncLoop() {
+      video.loop = loopToggle.checked;
+    }
+
+    loopToggle.addEventListener("change", syncLoop);
+    syncLoop();
+  </script>
 </body>
 </html>
