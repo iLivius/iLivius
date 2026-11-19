@@ -21,8 +21,7 @@ https://github.com/user-attachments/assets/fc457291-31c4-4770-bcf3-b4710aa65fc4
 
 Choose a line for Illumina reads, Nanopore reads, a hybrid run or an existing bacterial assembly. Follow it through genome quality checks, annotation and reporting, with optional branches for resistance gene mobility and ecological trait prediction.
 
-<!-- For GitHub's inline player, replace the linked poster on the next line with the bare attachment URL from the GitHub editor. -->
-[![Play the BacFlux metro map animation. The cover shows a bacterial cell above four coloured routes.](docs/assets/bacflux-poster.jpg)](https://ilivius.github.io/iLivius/bacflux/)
+https://github.com/user-attachments/assets/5dcfe775-b087-47cf-8e7d-83cc25fbc0ce
 
 [Chapters and loop controls](https://ilivius.github.io/iLivius/bacflux/) · [Detailed metro map](https://ilivius.github.io/BacFlux/#overview) · [BacFlux repository](https://github.com/iLivius/BacFlux)
 
