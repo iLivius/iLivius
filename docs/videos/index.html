@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0c141d">
+  <meta name="description" content="Explore Livio Antonielli's open-source BioFlux workflows for genome analysis, microbiome profiling and machine learning through five short films.">
+  <title>BioFlux video gallery · Livio Antonielli</title>
+  <link rel="stylesheet" href="gallery.css">
+  <script src="gallery.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#films">Skip to workflow films</a>
+  <header class="site-header">
+    <div class="container topbar">
+      <span class="name">Livio Antonielli</span>
+      <nav aria-label="Main navigation">
+        <a href="#films">Workflow films</a>
+        <a href="https://github.com/iLivius">GitHub profile</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero" id="bioflux" aria-labelledby="title">
+      <img class="hero-image" src="covers/river.webp" alt="" width="1280" height="720" fetchpriority="high">
+      <div class="hero-copy">
+        <h1 id="title">BioFlux<span class="route-line" aria-hidden="true"></span></h1>
+        <p>Open-source workflows for bacterial and fungal genomics, microbiome profiling and machine learning.</p>
+        <a class="intro-play" href="../assets/bioflux-intro.mp4" data-film="bioflux"
+           data-title="BioFlux intro" data-poster="covers/river.webp">
+          <span class="play-icon" aria-hidden="true"></span>
+          <span>Play the BioFlux intro</span>
+          <span class="intro-duration">0:22</span>
+        </a>
+      </div>
+    </section>
+
+    <section id="films" aria-labelledby="films-title">
+      <div class="section-heading">
+        <h2 id="films-title">Workflow films</h2>
+      </div>
+      <div class="film-grid">
+        <article class="film bacflux" id="bacflux">
+          <a class="cover" href="../bacflux/" data-film="bacflux" data-title="BacFlux metro map"
+             data-src="../assets/bacflux-v2.2.0-metro-map.mp4" data-poster="covers/bacflux.webp"
+             aria-label="Play the BacFlux metro map animation, 2 minutes 31 seconds">
+            <img src="covers/bacflux.webp" alt="" width="832" height="468">
+            <span class="cover-play" aria-hidden="true"><span class="play-icon"></span></span>
+            <span class="duration" aria-hidden="true">2:31</span>
+          </a>
+          <div class="film-copy">
+            <div class="film-title"><h3>BacFlux</h3><span>v2.2.0</span></div>
+            <p>Follow four routes to a quality-checked, annotated bacterial genome.</p>
+            <a href="https://github.com/iLivius/BacFlux" aria-label="BacFlux repository on GitHub">Repository</a>
+          </div>
+        </article>
+
+        <article class="film funflux" id="funflux">
+          <a class="cover" href="../assets/funflux-v2.1.0-workflow-animation.mp4" data-film="funflux"
+             data-title="FunFlux metro map" data-poster="covers/funflux.webp"
+             aria-label="Play the FunFlux metro map animation, 2 minutes 36 seconds">
+            <img src="covers/funflux.webp" alt="" width="832" height="468">
+            <span class="cover-play" aria-hidden="true"><span class="play-icon"></span></span>
+            <span class="duration" aria-hidden="true">2:36</span>
+          </a>
+          <div class="film-copy">
+            <div class="film-title"><h3>FunFlux</h3><span>v2.1.0</span></div>
+            <p>Step through fungal genome assembly, quality checks and gene annotation.</p>
+            <a href="https://github.com/iLivius/FunFlux" aria-label="FunFlux repository on GitHub">Repository</a>
+          </div>
+        </article>
+
+        <article class="film metaflux" id="metaflux">
+          <a class="cover" href="../assets/metaflux-v2.6.1-workflow-animation.mp4" data-film="metaflux"
+             data-title="MetaFlux metro map" data-poster="covers/metaflux.webp"
+             aria-label="Play the MetaFlux metro map animation, 2 minutes 23 seconds">
+            <img src="covers/metaflux.webp" alt="" width="832" height="468">
+            <span class="cover-play" aria-hidden="true"><span class="play-icon"></span></span>
+            <span class="duration" aria-hidden="true">2:23</span>
+          </a>
+          <div class="film-copy">
+            <div class="film-title"><h3>MetaFlux</h3><span>v2.6.1</span></div>
+            <p>See how amplicon and shotgun reads become microbial community profiles.</p>
+            <a href="https://github.com/iLivius/MetaFlux" aria-label="MetaFlux repository on GitHub">Repository</a>
+          </div>
+        </article>
+
+        <article class="film tabflux" id="tabflux">
+          <a class="cover" href="https://www.youtube.com/watch?v=4SW2FELxvnQ" data-film="tabflux"
+             data-title="TabFlux · A food metagenomics case study" data-youtube="4SW2FELxvnQ"
+             aria-label="Play the TabFlux case study, 4 minutes 32 seconds">
+            <img src="covers/tabflux.webp" alt="" width="832" height="468">
+            <span class="cover-play" aria-hidden="true"><span class="play-icon"></span></span>
+            <span class="duration" aria-hidden="true">4:32</span>
+          </a>
+          <div class="film-copy">
+            <div class="film-title"><h3>TabFlux</h3><span>Case study</span></div>
+            <p>Can a microbiome classifier generalise to a study it has never seen?</p>
+            <a href="https://github.com/iLivius/TabFlux" aria-label="TabFlux repository on GitHub">Repository</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <details id="credits">
+        <summary>Video credits</summary>
+        <dl>
+          <dt>BioFlux intro</dt>
+          <dd>River footage and ambient audio from Google Flow using Veo 3.1 Lite. Closing sky image from ChatGPT Images. Transition, typography and final edit made with Python and FFmpeg.</dd>
+          <dt>BacFlux</dt>
+          <dd>Livio Antonielli created the animation using GPT-6.2 Sol max. <a href="https://ilivius.github.io/BacFlux/#overview">BacFlux metro map and documentation</a></dd>
+          <dt>FunFlux and MetaFlux</dt>
+          <dd>Animations based on the respective workflow maps and documentation. <a href="https://ilivius.github.io/FunFlux/">FunFlux documentation</a> · <a href="https://ilivius.github.io/MetaFlux/">MetaFlux documentation</a></dd>
+          <dt>TabFlux</dt>
+          <dd>Illustrated case study made with Claude under Livio Antonielli’s supervision. Synthetic narration by Kokoro-82M. <a href="https://www.youtube.com/watch?v=4SW2FELxvnQ">Full production and data credits</a></dd>
+        </dl>
+      </details>
+      <a href="https://github.com/iLivius/iLivius">Profile repository</a>
+    </footer>
+  </main>
+
+  <dialog class="viewer" aria-labelledby="viewer-title">
+    <div class="viewer-header">
+      <h2 id="viewer-title"></h2>
+      <form method="dialog"><button class="close" type="submit" autofocus>Close</button></form>
+    </div>
+    <div class="viewer-body">
+      <div class="player-column">
+        <div class="player"></div>
+        <div class="player-options">
+          <label hidden><input type="checkbox" id="loop-video"> Loop video</label>
+          <a class="source-link"></a>
+        </div>
+        <p class="video-error" role="status" hidden>Playback failed. Try opening the MP4 directly.</p>
+      </div>
+      <section class="chapters" aria-labelledby="chapters-title" hidden>
+        <h3 id="chapters-title">Chapters</h3>
+        <ol></ol>
+      </section>
+    </div>
+  </dialog>
+  <script src="chapters.js"></script>
+</body>
+</html>
